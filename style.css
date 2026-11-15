@@ -1,0 +1,212 @@
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #F8FAFC;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  /* background-color: red; */
+}
+.logo {
+  width: 140px;
+  /* padding: 2px 2px; */
+  height: fit-content;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.search-bar {
+  width: 50%;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10%;
+  /* background-color: blue; */
+}
+.input1 {
+  width: 90%;
+  justify-content: center;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border: 2px solid #c4c4c4;
+}
+.input1:focus {
+  border: 3px solid hsl(164, 96%, 55%);
+  outline: none;
+}
+.search-btn {
+  height: 100%;
+  width: 7%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  color: black;
+  background-color: hsl(164, 96%, 55%);
+  margin-left: -2px;
+  cursor: pointer;
+  border: 2px solid hsl(164, 96%, 55%);
+  font-size: 20px;
+}
+.nav-actins {
+  display: flex;
+  justify-content: flex-start;
+  /* background-color: green; */
+  gap: 20px;
+  margin-left: 50px;
+}
+.btn2 { 
+  padding: 2px 18px;
+  height: fit-content;
+  border-radius: 10px;
+  border: 2px solid #008DA9;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 100px;
+  transition: border-color 0.3s ease, background-color 0.2s ease;
+  z-index: 10;
+}
+.btn2:hover {
+  border-color: #6dd7ea;
+  background-color: hsl(164, 96%, 55%);
+  transform: translateZ(1px);
+}
+.btn3 {
+  padding: 5px 18px;
+  height: fit-content;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: white;
+  background-color: #172131;
+  border: 2px solid #37383A;
+  font-size: 10px;
+  cursor: pointer;
+}
+.btn4 {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border: 3px solid #41A3D4;
+  background-color: #41A3D4;
+  color: white;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.line1{
+  margin-top: 9px;
+  margin-left: 0px;
+  width: 100%;
+  height: 1px;
+  background-color: hsl(0, 0%, 69%);
+}
+.categories {
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+  width: 100%;
+  /* background-color:#008DA9; */
+  margin-top: -2px;
+  margin-left: 12px;
+  position: relative;
+  z-index: 10;
+}
+.categories button{
+  padding: 6px 16px;
+  /* width: 60px;
+  height: 15px; */
+  border-radius: 6px;
+  border: 2px solid transparent;
+  margin-top: 12px;
+  font-size: 13px;
+  /* text-wrap: wrap; */
+  width: fit-content;
+  cursor: pointer;
+  color: #616161;
+  font-weight: 500;
+  background-color: #EEEEEE;
+  text-wrap: fit-content;
+  white-space: nowrap;
+  transition: border-color 0.3s ease, background-color 0.2s ease;
+}
+.categories button:hover {
+  border-color: #111718;
+  background-color: #E4E4E4;
+  transform: translateY(-1px);
+}
+
+.categories button:focus {
+  background-color: #111718;
+  color: #FFFFFF;
+  font-weight: 600;
+  
+
+}
+.line2{
+  margin-top: 9px;
+  margin-left: 0px;
+  width: 100%;
+  height: 1px;
+  background-color: hsl(0, 0%, 69%);
+}
+.main-banner {
+  position: relative;
+  background: linear-gradient(to right, #C8FCE8, #F5F6D8);
+  width: 95%;
+  height: 500px;
+  z-index: 20;
+  margin-left: 2.5%;
+  border-radius: 27px;
+  border: 3px solid #ABFDE4;
+  margin-top: 15px;
+}
+.paragraph-1 {
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 30px;
+  font-weight: 100px;
+}
+.paragraph-2 {
+  position: absolute;
+  padding: 0;
+  margin-top: 180px;
+  margin-left: 28px;
+  font-weight: 900;
+  font-size: 50px;
+  color: hwb(189 3% 13%);
+}
+.paragraph-3 {
+  position: absolute;
+  padding: 0;
+  width: 700px;
+  margin-top: 250px;
+  margin-left: 30px;
+  font-weight: 100;
+  font-size: 20px;
+  color: #4f5050;
+}
+.main-banner-image{
+  position: absolute;
+  width: 250px;
+  left: 1050px;
+  top: 70px;
+  border-radius: 27px;
+  border: 6px solid white;
+}
+.banner-btn {
+  position: absolute;
+  left: 1220px;
+  top: 400px;
+  height: 30px;
+  border-radius: 7px;
+  border: 3px solid #111718;
+  background-color: #111718;
+  color: #FFFFFF;
+  transition: background-color 0.5s ease, border-color 0.5s ease-in;
+  cursor: pointer;
+  font-weight: 600;
+}
+.banner-btn:hover {
+  background-color: #1fb9ca;
+  border-color: #1fb9ca;
+  transform: translateY(1px);
+}
